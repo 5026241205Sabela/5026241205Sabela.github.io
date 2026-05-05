@@ -1,0 +1,72 @@
+/*--------------------------------------------------------------
+# Innovation Section
+--------------------------------------------------------------*/
+/* Container biar rapi */
+.inv-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+.innovation {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+}
+.judul-inv{
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+.inv-tittle{
+    text-align: center;
+}
+/* Layout bawah (image + text) */
+.inv-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Gambar */
+.inv-image {
+  flex: 1;
+  min-width: 280px;
+}
+
+.inv-image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* Teks */
+.inv-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.inv-text h2 {
+  font-size: clamp(20px, 3vw, 36px);
+  margin-bottom: 16px;
+}
+
+.inv-text p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* Button */
+.inv-text button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  background-color: #6ea8fe;
+  color: white;
+  cursor: pointer;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
